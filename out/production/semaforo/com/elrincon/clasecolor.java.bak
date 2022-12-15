@@ -1,0 +1,10 @@
+package com.elrincon;
+import clases.teacherClass;
+public class clasecolor {
+
+    public static void main(String[] args) {
+        profesor teacher = new profesor();
+        String color = teacher.preguntacolor();
+        System.out.println("La respuesta recibida es:" + color);
+    }
+}
