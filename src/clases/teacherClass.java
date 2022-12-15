@@ -15,7 +15,9 @@ public class teacherClass extends persona {
     public String preguntaColor(){
 
         String colorRec = getColorName();
-        int valor2;
+        int valor;
+        // este es m,i segundo comentario
+
         
         return colorRec;
 
